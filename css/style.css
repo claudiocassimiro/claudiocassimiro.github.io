@@ -8,6 +8,23 @@ body {
     color: #63717e;
 }
 
+ul, a {
+    font-family: monospace;
+}
+
+#header, #section, #footer {
+    padding: 0 50px 0 50px;
+}
+
+.content {
+    background-color: aquamarine;
+    padding: 50px 50px;
+    width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px #a5a5a5;
+}
+
 .picture {
     width: 150px;
     height: 150px;
@@ -17,9 +34,13 @@ body {
 }
 
 .title-name {
+    position: relative;
+    top: -140px;
+    left: 170px;
     background-color: #DEE3B1;
-    width: 93px;
+    width: 22px;
     padding: 5px;
+    border-radius: 5px;
     box-shadow: 3px 2px 2px rgba(122, 122, 122, 0.555);
 }
 
@@ -36,10 +57,15 @@ body {
     padding: 1px;
 }
 
-.plink, .alink {
-    background-color: #DEE3B1;
-    padding: 1px;
+.alink {
+    position: relative;
+    top: -160px;
+    left: 200px;
+    background-color: #E3B4B1;
+    padding: 3px;
+    border-radius: 5px;
     width: 63px;
+    margin: 0;
     text-decoration: none;
     box-shadow: 3px 2px 2px rgba(122, 122, 122, 0.555); 
 }
@@ -59,7 +85,7 @@ body {
     box-shadow: 3px 2px 2px rgba(122, 122, 122, 0.555);
 }
 
-.plist {
+.p-hard-skills, .p-soft-skills {
     background-color: #DEE3B1;
     padding: 1px;
     width: 220px;
