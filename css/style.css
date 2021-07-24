@@ -4,13 +4,17 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #C7D5E3;
+    background-image: url('https://images.pexels.com/photos/3805983/pexels-photo-3805983.jpeg?cs=srgb&dl=pexels-alex-andrews-3805983.jpg&fm=jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
     color: #63717e;
 }
 
 .content {
     position: relative;
-    background-color: #7fffd4;
+    background-color: #88ffd7;
     padding: 50px 50px;
     width: 500px;
     height: 800px;
