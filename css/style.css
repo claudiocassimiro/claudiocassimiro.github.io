@@ -8,6 +8,19 @@ body {
     color: #63717e;
 }
 
+.content {
+    position: relative;
+    background-color: #7fffd4;
+    padding: 50px 50px;
+    width: 500px;
+    height: 800px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px #a5a5a5;
+}
+
 ul, ol, a {
     font-family: monospace;
     text-decoration: none;
@@ -22,51 +35,61 @@ ul, ol, a {
 }
 
 #footer {
+    position: absolute;
+    top: 680px;
+    left: 70px;
     text-align: center;
-    position: relative;
-    top: 190px;
-}
-
-.content {
-    background-color: aquamarine;
-    padding: 50px 50px;
-    width: 500px;
-    height: 800px;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border-radius: 15px;
-    box-shadow: 3px 5px 10px #a5a5a5;
 }
 
 .picture {
+    position: absolute;
+    left: 80px;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 10px;
     border: 3px solid #E3B4B1;
-    box-shadow: 3px 2px 2px rgba(122, 122, 122, 0.555);
+    box-shadow: 5px 2px 5px rgba(122, 122, 122, 0.555);
 }
 
 .title-name {
-    position: relative;
-    top: -140px;
-    left: 170px;
+    position: absolute;
+    top: 70px;
+    left: 250px;
     background-color: #DEE3B1;
     width: 22px;
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 3px 2px 2px rgba(122, 122, 122, 0.555);
+    box-shadow: 5px 2px 5px rgba(122, 122, 122, 0.555);
+}
+
+.alink {
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 300px;
+    background-color: #E3B4B1;
+    padding: 3px;
+    border-radius: 5px;
+    width: 70px;
+    margin: 0;
+    text-decoration: none;
+    box-shadow: 5px 2px 5px rgba(122, 122, 122, 0.555); 
+    transition: 0.3s;
+}
+
+.alink:hover {
+    background-color: #da8f89;
 }
 
 .about-me {
-    position: relative;
-    top: -100px;
+    position: absolute;
+    top: 205px;
     background-color: #E3B4B1;
     width: 300px;
     padding: 5px;
     text-align: justify;
     border-radius: 5px;
-    box-shadow: 3px 2px 2px rgba(122, 122, 122, 0.555);
+    box-shadow: 5px 2px 5px rgba(122, 122, 122, 0.555);
 }
 
 .location {
@@ -74,50 +97,67 @@ ul, ol, a {
     padding: 1px;
 }
 
-.alink {
-    position: relative;
-    top: -160px;
-    left: 200px;
-    background-color: #E3B4B1;
-    padding: 3px;
-    border-radius: 5px;
-    width: 63px;
-    margin: 0;
-    text-decoration: none;
-    box-shadow: 3px 2px 2px rgba(122, 122, 122, 0.555); 
-    transition: 0.2s;
-}
-
-.alink:hover {
-    background-color: #da8f89;
-}
-
-.p-hard-skills, .p-soft-skills {
-    position: relative;
-    top: 70px;
-    left: 40px;
+.p-hard-skills {
+    position: absolute;
+    top: 300px;
+    left: 140px;
     text-align: center;
     background-color: #DEE3B1;
     padding: 1px;
     width: 220px;
     border-radius: 5px;
-    box-shadow: 3px 2px 2px rgba(122, 122, 122, 0.555);
+    box-shadow: 5px 2px 5px rgba(122, 122, 122, 0.555);
 }
 
-.menus {
+.p-soft-skills {
+    position: absolute;
+    top: 500px;
+    left: 140px;
+    text-align: center;
+    background-color: #DEE3B1;
+    padding: 1px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 5px rgba(122, 122, 122, 0.555);
+}
+
+.menu1 {
+    position: absolute;
+    top: 337px;
     line-height: 20px;
-    position: relative;
-    top: 70px;
     background-color: #E3B4B1;
     width: 300px;
     padding: 5px;
     text-align: justify;
     border-radius: 5px;
-    box-shadow: 3px 2px 2px rgba(122, 122, 122, 0.555); 
+    box-shadow: 5px 2px 5px rgba(122, 122, 122, 0.555); 
     list-style: none;
 }
 
-/*.menu {
+.item:hover {
+    background-color: #DEE3B1;
+}
+
+.menu2 {
+    position: absolute;
+    top: 554px;
+    line-height: 20px;
+    background-color: #E3B4B1;
+    width: 300px;
+    padding: 5px;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 5px 2px 5px rgba(122, 122, 122, 0.555); 
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #63717e;
+}
+
+/*
+.menu {
     background-color: #E3B4B1;
     width: 300px;
     padding: 5px;
@@ -131,5 +171,3 @@ ul, ol, a {
     width: 195px;
     box-shadow: 3px 2px 2px rgba(122, 122, 122, 0.555);
 }*/
-
-
